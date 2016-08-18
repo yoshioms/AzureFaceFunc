@@ -1,0 +1,9 @@
+{
+  "bindings": [
+    {
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "face"
+    }
+  ]
+}
