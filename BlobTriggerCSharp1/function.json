@@ -1,9 +1,12 @@
 {
   "bindings": [
     {
+      "name": "myBlob",
       "type": "blobTrigger",
       "direction": "in",
-      "path": "face"
+      "path": "face",
+      "connection": "facefuncstorage_STORAGE"
     }
-  ]
+  ],
+  "disabled": false
 }
